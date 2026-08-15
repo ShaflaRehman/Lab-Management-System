@@ -1,0 +1,81 @@
+﻿<Window x:Class="LabManagement.AddComponentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Component" WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        Background="#0F172A" FontFamily="Segoe UI">
+
+    <Window.Resources>
+        <!-- Rounded Button Style -->
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#3B82F6"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="6"
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#60A5FA"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#2563EB"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <ScrollViewer>
+        <StackPanel Margin="20">
+            <!-- Component Name -->
+            <TextBlock Text="Component Name:" Foreground="White" Margin="0,0,0,5"/>
+            <Border CornerRadius="6" Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Margin="0,0,0,10">
+                <TextBox x:Name="NameTextBox" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                         FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7"/>
+            </Border>
+
+            <!-- Subtype -->
+            <TextBlock Text="Subtype:" Foreground="White" Margin="0,0,0,5"/>
+            <Border CornerRadius="6" Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Margin="0,0,0,10">
+                <TextBox x:Name="SubtypeTextBox" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                         FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7"/>
+            </Border>
+
+            <!-- Quantity -->
+            <TextBlock Text="Quantity:" Foreground="White" Margin="0,0,0,5"/>
+            <Border CornerRadius="6" Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Margin="0,0,0,10">
+                <TextBox x:Name="QuantityTextBox" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                         FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7"/>
+            </Border>
+
+            <!-- Generate Fields Button -->
+            <Button Content="Generate Fields" Style="{StaticResource RoundedButtonStyle}" 
+                    Margin="0,10" Click="GenerateFields_Click"/>
+
+            <!-- Component ID Panel -->
+            <Border CornerRadius="6" Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Margin="0,10" Padding="10">
+                <StackPanel x:Name="ComponentIdPanel"/>
+            </Border>
+
+            <!-- Action Buttons -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                <Button Content="Add More" Style="{StaticResource RoundedButtonStyle}" Click="AddMore_Click"/>
+                <Button Content="Finish" Style="{StaticResource RoundedButtonStyle}" Click="Finish_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

@@ -1,0 +1,122 @@
+﻿<Window x:Class="LabManagement.ComponentIssuanceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Issue Component" 
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen" Background="#0F172A" FontFamily="Segoe UI">
+
+    <Window.Resources>
+        <!-- Rounded Button Style -->
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#3B82F6"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Margin" Value="0,10,0,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="6"
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#60A5FA"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#2563EB"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Component Search -->
+        <Label Content="Component Name:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Foreground="White"/>
+        <Border Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Grid.Row="0" Grid.Column="1" Margin="5" CornerRadius="6">
+            <TextBox x:Name="ComponentNameBox" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                     FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7"/>
+        </Border>
+
+        <!-- Search Button -->
+        <Button x:Name="SearchButton" Content="Search Available Components" Grid.Row="1" Grid.Column="1" 
+                Style="{StaticResource RoundedButtonStyle}" Margin="0,10,0,0" Click="SearchComponents_Click"/>
+
+        <Label Content="Available Component IDs:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Foreground="White"/>
+        <Border Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Grid.Row="2" Grid.Column="1" Margin="5" CornerRadius="6">
+            <ComboBox x:Name="ComponentList" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                      FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7">
+                <ComboBox.ItemContainerStyle>
+                    <Style TargetType="ComboBoxItem">
+                        <Setter Property="Background" Value="#1E293B"/>
+                        <Setter Property="Foreground" Value="#93C5FD"/>
+                        <Setter Property="BorderBrush" Value="#3B82F6"/>
+                    </Style>
+                </ComboBox.ItemContainerStyle>
+            </ComboBox>
+        </Border>
+
+        <!-- Student Details -->
+        <Label Content="Student Name:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Foreground="White"/>
+        <Border Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Grid.Row="3" Grid.Column="1" Margin="5" CornerRadius="6">
+            <TextBox x:Name="StudentNameBox" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                     FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7"/>
+        </Border>
+
+        <Label Content="Registration No.:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Foreground="White"/>
+        <Border Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Grid.Row="4" Grid.Column="1" Margin="5" CornerRadius="6">
+            <TextBox x:Name="RegNoBox" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                     FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7"/>
+        </Border>
+
+        <Label Content="Degree:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" Foreground="White"/>
+        <Border Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Grid.Row="5" Grid.Column="1" Margin="5" CornerRadius="6">
+            <TextBox x:Name="DegreeBox" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                     FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7"/>
+        </Border>
+
+        <Label Content="Department:" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" Foreground="White"/>
+        <Border Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Grid.Row="6" Grid.Column="1" Margin="5" CornerRadius="6">
+            <TextBox x:Name="DepartmentBox" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                     FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7"/>
+        </Border>
+
+        <Label Content="Syndicate:" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" Foreground="White"/>
+        <Border Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Grid.Row="7" Grid.Column="1" Margin="5" CornerRadius="6">
+            <TextBox x:Name="SyndicateBox" Background="Transparent" BorderThickness="0" Foreground="#93C5FD"
+                     FontSize="14" Padding="10" FontStyle="Italic" Opacity="0.7"/>
+        </Border>
+
+        <!-- Issue Button -->
+        <Button x:Name="IssueButton" Content="Issue Component" Grid.Row="8" Grid.ColumnSpan="2" 
+                Style="{StaticResource RoundedButtonStyle}" Margin="0,20,0,0" Click="IssueComponent_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,109 @@
+﻿<Window x:Class="LabManagement.ComponentByLabWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Components by Lab" WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        Background="#0F172A" FontFamily="Segoe UI">
+
+    <StackPanel Margin="20" Orientation="Vertical">
+
+        <!-- Course Selection -->
+        <TextBlock Text="Select Course:" Margin="0,0,0,5"
+                   FontSize="14" FontWeight="SemiBold" Foreground="White"/>
+        <Border CornerRadius="6" Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Width="300" Margin="0,0,0,10">
+            <ComboBox x:Name="CourseComboBox"
+                      Background="Transparent"
+                      Foreground="#93C5FD"
+                      FontSize="14"
+                      FontStyle="Italic"
+                      BorderThickness="0"
+                      Padding="10"
+                      Opacity="0.85"
+                      SelectionChanged="CourseComboBox_SelectionChanged"/>
+        </Border>
+
+        <!-- Lab Selection -->
+        <TextBlock Text="Select Lab Number:" Margin="0,0,0,5"
+                   FontSize="14" FontWeight="SemiBold" Foreground="White"/>
+        <Border CornerRadius="6" Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Width="300" Margin="0,0,0,10">
+            <ComboBox x:Name="LabNumberComboBox"
+                      Background="Transparent"
+                      Foreground="#93C5FD"
+                      FontSize="14"
+                      FontStyle="Italic"
+                      BorderThickness="0"
+                      Padding="10"
+                      Opacity="0.85"/>
+        </Border>
+
+        <!-- Button -->
+        <Button Content="Fetch Components"
+                Width="200" Height="40"
+                FontSize="14" FontWeight="Bold"
+                Background="#3B82F6"
+                Foreground="White"
+                BorderThickness="0"
+                Cursor="Hand"
+                Margin="0,10,0,20"
+                Click="FetchComponents_Click"/>
+
+        <!-- DataGrid -->
+        <Border CornerRadius="6" Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Padding="1">
+            <DataGrid x:Name="ComponentsDataGrid"
+                      AutoGenerateColumns="False"
+                      Height="150"
+                      Background="#1E293B"
+                      Foreground="White"
+                      BorderThickness="0"
+                      RowBackground="#1E293B"
+                      AlternatingRowBackground="#1E2330"
+                      HeadersVisibility="Column"
+                      GridLinesVisibility="None"
+                      FontSize="14"
+                      FontFamily="Segoe UI">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" />
+                    <DataGridTextColumn Header="Subtype" Binding="{Binding Subtype}" Width="*" />
+                    <DataGridTextColumn Header="Required Qty" Binding="{Binding RequiredQuantity}" Width="*" />
+                    <DataGridTextColumn Header="Available Qty" Binding="{Binding AvailableQuantity}" Width="*" />
+                </DataGrid.Columns>
+
+                <DataGrid.CellStyle>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+                        <Setter Property="Padding" Value="10"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="DataGridCell">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="4">
+                                        <ContentPresenter VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </DataGrid.CellStyle>
+
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="Background" Value="#1E2330"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="FontWeight" Value="SemiBold"/>
+                        <Setter Property="Padding" Value="10"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="DataGridColumnHeader">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="4">
+                                        <ContentPresenter VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+
+            </DataGrid>
+        </Border>
+    </StackPanel>
+</Window>

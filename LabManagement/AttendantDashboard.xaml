@@ -1,0 +1,52 @@
+﻿<Window x:Class="LabManagement.AttendantDashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AttendantDashboard" WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        Background="#0F172A" FontFamily="Segoe UI">
+
+    <Grid Margin="20">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
+            <!-- Buttons with consistent styling -->
+            <Button Content="Component Issuance" Height="40" Margin="0,5" 
+                    Background="#1E293B" Foreground="#93C5FD" BorderBrush="#3B82F6"
+                    FontSize="14" FontWeight="SemiBold" Click="ComponentIssuance_Click"/>
+
+            <Button Content="Component Return" Height="40" Margin="0,5"
+                    Background="#1E293B" Foreground="#93C5FD" BorderBrush="#3B82F6"
+                    FontSize="14" FontWeight="SemiBold" Click="ComponentReturn_Click"/>
+
+            <Button Content="Component Track" Height="40" Margin="0,5"
+                    Background="#1E293B" Foreground="#93C5FD" BorderBrush="#3B82F6"
+                    FontSize="14" FontWeight="SemiBold" Click="ComponentTrack_Click"/>
+
+            <Button Content="Status Update" Height="40" Margin="0,5"
+                    Background="#1E293B" Foreground="#93C5FD" BorderBrush="#3B82F6"
+                    FontSize="14" FontWeight="SemiBold" Click="StatusUpdate_Click"/>
+
+            <Button Content="Request Component" Height="40" Margin="0,5"
+                    Background="#1E293B" Foreground="#93C5FD" BorderBrush="#3B82F6"
+                    FontSize="14" FontWeight="SemiBold" Click="RequestComponent_Click"/>
+
+            <Button Content="Add Component" Height="40" Margin="0,5"
+                    Background="#1E293B" Foreground="#93C5FD" BorderBrush="#3B82F6"
+                    FontSize="14" FontWeight="SemiBold" Click="AddComponent_Click"/>
+
+            <Button Content="Remove Component" Height="40" Margin="0,5"
+                    Background="#1E293B" Foreground="#93C5FD" BorderBrush="#3B82F6"
+                    FontSize="14" FontWeight="SemiBold" Click="RemoveComponent_Click"/>
+
+            <!-- Exit Button with accent color -->
+            <Button Content="Exit" Height="40" Margin="0,5"
+                    Background="#3B82F6" Foreground="White" FontWeight="Bold"
+                    FontSize="14" Click="Exit_Click"/>
+
+            <!-- Transaction Panel with consistent styling -->
+            <Border x:Name="TransactionDetailsPanel" Margin="0,20,0,0" CornerRadius="6" 
+                    Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" 
+                    Padding="10" Visibility="Collapsed">
+                <!-- Content will be added dynamically -->
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

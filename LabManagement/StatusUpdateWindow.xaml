@@ -1,0 +1,57 @@
+﻿<Window x:Class="LabManagement.StatusUpdateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Update Status" 
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        Background="#0F172A" FontFamily="Segoe UI">
+
+    <Grid Margin="20">
+        <StackPanel VerticalAlignment="Center">
+
+            <!-- Component ID Input -->
+            <TextBlock Text="Enter Component ID:" 
+                       FontSize="14" FontWeight="SemiBold" Foreground="White"/>
+            <Border CornerRadius="6" Background="#1E293B" BorderBrush="#3B82F6" BorderThickness="1" Height="40" Margin="0,5,0,10">
+                <TextBox Name="ComponentIdBox" 
+                         Background="Transparent" BorderThickness="0" 
+                         Foreground="#93C5FD" FontSize="14" Padding="10"
+                         FontStyle="Italic" Opacity="0.85"/>
+            </Border>
+
+            <!-- Fetch Button -->
+            <Button Content="Fetch Status" 
+                    Height="40" Background="#3B82F6" Foreground="White"
+                    FontSize="14" FontWeight="Bold" BorderThickness="0"
+                    Cursor="Hand" Margin="0,0,0,15"
+                    Click="FetchStatus_Click"/>
+
+            <!-- Current Status Display -->
+            <TextBlock Text="Current Status:" 
+                       FontSize="14" FontWeight="SemiBold" Foreground="White"/>
+            <TextBlock Name="CurrentStatusTextBlock" 
+                       FontSize="14" FontWeight="Bold" Foreground="#93C5FD" Margin="0,5"/>
+
+            <!-- Status Dropdown -->
+            <Border Name="StatusComboBoxBorder" CornerRadius="6" Background="#1E293B" 
+                    BorderBrush="#3B82F6" BorderThickness="1" Height="40" Margin="0,5,0,10"
+                    >
+                <ComboBox Name="StatusComboBox" 
+                          Background="Transparent" Foreground="#93C5FD"
+                          FontSize="14" FontStyle="Italic" 
+                          BorderThickness="0" Padding="10">
+                    <ComboBoxItem Content="Working"/>
+                    <ComboBoxItem Content="Faulty"/>
+                </ComboBox>
+            </Border>
+
+            <!-- Update Button -->
+            <Button x:Name="UpdateStatusButton" 
+                    Content="Update Status"
+                    Height="40" Background="#4ADE80" Foreground="Black"
+                    FontSize="14" FontWeight="Bold" BorderThickness="0"
+                    Cursor="Hand" Visibility="Collapsed"
+                    Click="UpdateStatus_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

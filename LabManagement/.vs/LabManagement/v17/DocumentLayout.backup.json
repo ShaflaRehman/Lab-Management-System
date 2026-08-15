@@ -1,0 +1,490 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\addcomponentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:addcomponentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\addcomponentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:addcomponentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componentquantitywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componentquantitywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componentquantitywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componentquantitywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componenttrackwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componenttrackwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componenttrackwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componenttrackwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\statusupdatewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:statusupdatewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\statusupdatewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:statusupdatewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\removecomponentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:removecomponentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\selectissuancetypewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:selectissuancetypewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\attendantdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:attendantdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\attendantdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:attendantdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componentbylabwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componentbylabwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componentissuancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componentissuancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componentreturnwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componentreturnwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componenttrackoptionswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componenttrackoptionswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\hoddashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:hoddashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\instructordashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:instructordashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\studentdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:studentdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componentissuancewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componentissuancewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\componentbylabwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:componentbylabwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|c:\\users\\sharcom\\source\\repos\\db_project_final\\labmanagement\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBAF2AA-7162-D5A4-9F47-948056248D19}|LabManagement.csproj|solutionrelative:sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_7C4SMS3_SQLEXPRESS/LabInventoryManagemnet/True/SqlTable/dbo.Students.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_7C4SMS3_SQLEXPRESS/LabInventoryManagemnet/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SharCom\\source\\repos\\db_project_final\\db_project_query1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddComponentWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\AddComponentWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AddComponentWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\AddComponentWindow.xaml.cs",
+              "RelativeToolTip": "AddComponentWindow.xaml.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAmwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:18:27.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComponentTrackWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentTrackWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ComponentTrackWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentTrackWindow.xaml.cs",
+              "RelativeToolTip": "ComponentTrackWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:03:02.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComponentQuantityWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentQuantityWindow.xaml",
+              "RelativeDocumentMoniker": "ComponentQuantityWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentQuantityWindow.xaml",
+              "RelativeToolTip": "ComponentQuantityWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T21:24:06.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUp.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\SignUp.xaml",
+              "RelativeDocumentMoniker": "SignUp.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\SignUp.xaml",
+              "RelativeToolTip": "SignUp.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T19:01:44.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddComponentWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\AddComponentWindow.xaml",
+              "RelativeDocumentMoniker": "AddComponentWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\AddComponentWindow.xaml",
+              "RelativeToolTip": "AddComponentWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T20:52:39.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ComponentQuantityWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentQuantityWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ComponentQuantityWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentQuantityWindow.xaml.cs",
+              "RelativeToolTip": "ComponentQuantityWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:13:36.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComponentTrackWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentTrackWindow.xaml",
+              "RelativeDocumentMoniker": "ComponentTrackWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentTrackWindow.xaml",
+              "RelativeToolTip": "ComponentTrackWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T21:11:27.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatusUpdateWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\StatusUpdateWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StatusUpdateWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\StatusUpdateWindow.xaml.cs",
+              "RelativeToolTip": "StatusUpdateWindow.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:49:54.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatusUpdateWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\StatusUpdateWindow.xaml",
+              "RelativeDocumentMoniker": "StatusUpdateWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\StatusUpdateWindow.xaml",
+              "RelativeToolTip": "StatusUpdateWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T20:52:52.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RemoveComponentWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\RemoveComponentWindow.xaml",
+              "RelativeDocumentMoniker": "RemoveComponentWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\RemoveComponentWindow.xaml",
+              "RelativeToolTip": "RemoveComponentWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T21:08:51.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SelectIssuanceTypeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\SelectIssuanceTypeWindow.xaml",
+              "RelativeDocumentMoniker": "SelectIssuanceTypeWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\SelectIssuanceTypeWindow.xaml",
+              "RelativeToolTip": "SelectIssuanceTypeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T21:03:05.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T17:19:53.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwFQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:26:36.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AttendantDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\AttendantDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "AttendantDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\AttendantDashboard.xaml.cs",
+              "RelativeToolTip": "AttendantDashboard.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:16:02.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AttendantDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\AttendantDashboard.xaml",
+              "RelativeDocumentMoniker": "AttendantDashboard.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\AttendantDashboard.xaml",
+              "RelativeToolTip": "AttendantDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T04:48:40.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignUp.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\SignUp.xaml.cs",
+              "RelativeDocumentMoniker": "SignUp.xaml.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\SignUp.xaml.cs",
+              "RelativeToolTip": "SignUp.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAnwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T19:02:33.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\DatabaseHelper.cs",
+              "RelativeToolTip": "DatabaseHelper.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:28:56.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T17:41:12.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ComponentByLabWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentByLabWindow.xaml",
+              "RelativeDocumentMoniker": "ComponentByLabWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentByLabWindow.xaml",
+              "RelativeToolTip": "ComponentByLabWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T20:49:03.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ComponentIssuanceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentIssuanceWindow.xaml",
+              "RelativeDocumentMoniker": "ComponentIssuanceWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentIssuanceWindow.xaml",
+              "RelativeToolTip": "ComponentIssuanceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T20:52:56.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ComponentReturnWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentReturnWindow.xaml",
+              "RelativeDocumentMoniker": "ComponentReturnWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentReturnWindow.xaml",
+              "RelativeToolTip": "ComponentReturnWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T21:19:43.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ComponentTrackOptionsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentTrackOptionsWindow.xaml",
+              "RelativeDocumentMoniker": "ComponentTrackOptionsWindow.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentTrackOptionsWindow.xaml",
+              "RelativeToolTip": "ComponentTrackOptionsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T21:13:25.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HODDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\HODDashboard.xaml",
+              "RelativeDocumentMoniker": "HODDashboard.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\HODDashboard.xaml",
+              "RelativeToolTip": "HODDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T05:01:45.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InstructorDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\InstructorDashboard.xaml",
+              "RelativeDocumentMoniker": "InstructorDashboard.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\InstructorDashboard.xaml",
+              "RelativeToolTip": "InstructorDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T05:02:50.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudentDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\StudentDashboard.xaml",
+              "RelativeDocumentMoniker": "StudentDashboard.xaml",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\StudentDashboard.xaml",
+              "RelativeToolTip": "StudentDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T05:02:16.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ComponentIssuanceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentIssuanceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ComponentIssuanceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentIssuanceWindow.xaml.cs",
+              "RelativeToolTip": "ComponentIssuanceWindow.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswFYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T21:54:14.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ComponentByLabWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentByLabWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ComponentByLabWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\ComponentByLabWindow.xaml.cs",
+              "RelativeToolTip": "ComponentByLabWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T21:54:18.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\SessionManager.cs",
+              "RelativeDocumentMoniker": "SessionManager.cs",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\LabManagement\\SessionManager.cs",
+              "RelativeToolTip": "SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:56:31.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_7C4SMS3_SQLEXPRESS/LabInventoryManagemnet/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_7C4SMS3_SQLEXPRESS/LabInventoryManagemnet/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-09T05:04:19.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "dbo.Students.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_7C4SMS3_SQLEXPRESS/LabInventoryManagemnet/True/SqlTable/dbo.Students.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_7C4SMS3_SQLEXPRESS/LabInventoryManagemnet/True/SqlTable/dbo.Students.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-09T05:33:31.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "db_project_query1.sql",
+              "DocumentMoniker": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\db_project_query1.sql",
+              "RelativeDocumentMoniker": "..\\db_project_query1.sql",
+              "ToolTip": "C:\\Users\\SharCom\\source\\repos\\db_project_final\\db_project_query1.sql",
+              "RelativeToolTip": "..\\db_project_query1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-07T17:36:26.539Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
